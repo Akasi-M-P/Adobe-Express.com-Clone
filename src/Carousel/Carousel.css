@@ -1,0 +1,135 @@
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font: size 500px;;
+}
+
+.carousel-head{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.carousel-p{
+    
+    display: flex;
+    justify-content: center;
+  
+    text-align: left;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-container {
+  position: relative;
+  height: 350px;
+}
+
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:80%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.carousel-head,
+.carousel-p {
+  position: relative;
+  z-index: 1;
+}
+
+
+.below {
+  position: relative;
+  width: 400px;
+  height: 55px;
+  
+  margin-top: 2rem;
+  text-align: left;
+  margin-left: 5.2rem;
+  border-radius: 30px;
+}
+
+button {
+  position: relative;
+  z-index: 1;
+  height: 55px;
+  width: 210px;
+  display: inline-block;
+  background-color: #ccc; /* for demonstration purposes */
+ border-radius: 30px;
+  padding: 0 1rem; /* add some padding to the button */
+   padding: 0 1rem; /* add some padding to the button */
+  box-shadow: 
+    0 0 0 2px rgb(245, 247, 247), 
+    0 0 0 4px rgb(199, 79, 230);
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn {
+  background: #aa34d9;
+  background-image: -webkit-linear-gradient(top, #aa34d9, #5c2bb8);
+  background-image: -moz-linear-gradient(top, #aa34d9, #5c2bb8);
+  background-image: -ms-linear-gradient(top, #aa34d9, #5c2bb8);
+  background-image: -o-linear-gradient(top, #aa34d9, #5c2bb8);
+  background-image: linear-gradient(to bottom, #aa34d9, #5c2bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6f3cfc;
+  background-image: -webkit-linear-gradient(top, #6f3cfc, #5a34d9);
+  background-image: -moz-linear-gradient(top, #6f3cfc, #5a34d9);
+  background-image: -ms-linear-gradient(top, #6f3cfc, #5a34d9);
+  background-image: -o-linear-gradient(top, #6f3cfc, #5a34d9);
+  background-image: linear-gradient(to bottom, #6f3cfc, #5a34d9);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+p {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+ padding-top: 14px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.icon{
+    color: #d058ff;
+}
+
+
